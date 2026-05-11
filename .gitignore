@@ -1,0 +1,18 @@
+# Build folders
+Debug/
+Release/
+
+# Object files
+*.o
+*.d
+*.elf
+*.bin
+*.hex
+*.map
+
+# CubeIDE settings
+.settings/
+
+# OS files
+Thumbs.db
+.DS_Store
