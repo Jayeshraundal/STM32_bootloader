@@ -1,6 +1,6 @@
 # Build folders
-Debug/
-Release/
+Bootloader_dev/Debug/
+Bootloader_dev/Release/
 
 # Object files
 *.o
