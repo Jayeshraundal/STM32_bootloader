@@ -74,6 +74,8 @@ void NMI_Handler(void)
   /* USER CODE BEGIN NonMaskableInt_IRQn 1 */
    while (1)
   {
+	  HAL_GPIO_TogglePin(Bootloader_GPIO_Port,Bootloader_Pin);
+	  HAL_Delay(100);
   }
   /* USER CODE END NonMaskableInt_IRQn 1 */
 }
